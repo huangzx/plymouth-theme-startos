@@ -4,8 +4,8 @@ Description=StartOS plymouth theme
 ModuleName=script
 
 [script]
-ImageDir=/lib/plymouth/themes/startos
-ScriptFile=/lib/plymouth/themes/startos/startos.script
+ImageDir=/usr/share/plymouth/themes/startos
+ScriptFile=/usr/share/plymouth/themes/startos/startos.script
 
 [StartOSExt]
 FramesPerSecond=24
