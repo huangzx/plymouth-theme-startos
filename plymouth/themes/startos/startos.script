@@ -42,6 +42,9 @@ fun refresh(){
     i = i % 21;
     if (i == 0) i = 1;
     all[i].sprite.SetOpacity(1.0);
+    for (j = 0; j < 100000; j++)
+    {
+    }
     all[prev].sprite.SetOpacity(0.0);
     prev = i;
     i++;
